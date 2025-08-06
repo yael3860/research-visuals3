@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Art of the Deal with God</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- Animated Statistics with Counter -->
+<div class="visual-container">
+  <div class="particles"></div>
+  <h2 class="visual-title">The Problem: Women's Confidence Crisis</h2>
+  <div class="stats-grid">
+    <div class="stat-card" onclick="animateCard(this)">
+      <span class="stat-number" data-target="79">0%</span>
+      <span class="stat-label">of women struggle with self-esteem issues</span>
+    </div>
+    <div class="stat-card" onclick="animateCard(this)">
+      <span class="stat-number" data-target="75">0%</span>
+      <span class="stat-label">of executive women experience imposter syndrome</span>
+    </div>
+    <div class="stat-card" onclick="animateCard(this)">
+      <span class="stat-number" data-target="70">0%</span>
+      <span class="stat-label">feel less financially secure post-COVID</span>
+    </div>
+    <div class="stat-card" onclick="animateCard(this)">
+      <span class="stat-number" data-target="52">0%</span>
+      <span class="stat-label">lower serotonin production than men</span>
+    </div>
+  </div>
+</div>
+
+<!-- Interactive Three Mirrors with Click Transformation -->
+<div class="visual-container">
+  <h2 class="visual-title">The Three Mirrors Framework</h2>
+  <div class="mirrors-container">
+    <div class="mirror" onclick="highlightMirror(this, 1)">
+      <div class="mirror-title">Mirror 1:<br>Self-Judgment</div>
+      <div class="mirror-content">"I'm not enough"<br>"I don't deserve this"<br>"Who am I to charge that much?"</div>
+    </div>
+    <div class="transformation-arrow">→</div>
+    <div class="mirror" onclick="highlightMirror(this, 2)">
+      <div class="mirror-title">Mirror 2:<br>World's Eyes</div>
+      <div class="mirror-content">"You must prove yourself"<br>"Success requires perfection"<br>"Don't take up too much space"</div>
+    </div>
+    <div class="transformation-arrow">→</div>
+    <div class="mirror divine" onclick="highlightMirror(this, 3)">
+      <div class="mirror-title">Mirror 3:<br>Divine Perspective</div>
+      <div class="mirror-content">"Your existence proves your worth"<br>"You are exactly who you need to be"<br>"Your purpose is divinely ordained"</div>
+    </div>
+  </div>
+  <button class="transform-trigger" onclick="showTransformation()">See The Transformation</button>
+</div>
+
+<!-- Animated Brain Evolution -->
+<div class="visual-container">
+  <h2 class="visual-title">The Neuroscience: Brain Transformation</h2>
+  <div class="brain-container">
+    <div class="brain-side">
+      <div class="brain-label">Before: Self-Doubt Brain</div>
+      <div class="brain-visual" onclick="activateBrain(this)">
+        <div class="neural-pathway pathway-1"></div>
+        <div class="neural-pathway pathway-2"></div>
+        <div class="neural-pathway pathway-3"></div>
+      </div>
+      <ul class="brain-benefits">
+        <li>❌ Decision paralysis</li>
+        <li>❌ Cognitive overload</li>
+        <li>❌ Analysis overwhelm</li>
+        <li>❌ Reduced working memory</li>
+      </ul>
+    </div>
+
+    <div class="brain-side">
+      <div class="brain-label">After: Divine Confidence Brain</div>
+      <div class="brain-visual brain-improved" onclick="activateBrain(this)">
+        <div class="neural-pathway pathway-1 strong"></div>
+        <div class="neural-pathway pathway-2 strong"></div>
+        <div class="neural-pathway pathway-3 strong"></div>
+        <div class="neural-pathway pathway-4 strong"></div>
+      </div>
+      <ul class="brain-benefits">
+        <li>✓ Enhanced executive function</li>
+        <li>✓ Faster decision-making</li>
+        <li>✓ Improved cognitive flexibility</li>
+        <li>✓ Optimized performance under pressure</li>
+      </ul>
+    </div>
+  </div>
+  <button class="transform-trigger" onclick="compareBrains()">Compare Brain States</button>
+</div>
+
+<!-- Interactive Research Timeline -->
+<div class="visual-container">
+  <h2 class="visual-title">Research Process & Timeline</h2>
+  <div class="timeline">
+    <div class="timeline-progress"></div>
+
+    <div class="timeline-item" data-phase="1">
+      <div class="timeline-dot completed" onclick="activateTimelinePhase(1)"></div>
+      <div class="timeline-content" onclick="expandTimelineItem(this)">
+        <div class="timeline-title">
+          <span class="timeline-icon">🎤</span>
+          Phase 1: Deep Interviews
+        </div>
+        <div class="timeline-desc">
+          85+ structured interviews across diverse demographics and confidence levels - from Fortune 500 executives to spiritual leaders, capturing the complete spectrum of women's worthiness experiences.
+        </div>
+        <div class="timeline-stats">
+          <span>85+ Participants</span>
+          <span>60-90 min each</span>
+          <span>Status: Active</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-item" data-phase="2">
+      <div class="timeline-dot current" onclick="activateTimelinePhase(2)"></div>
+      <div class="timeline-content" onclick="expandTimelineItem(this)">
+        <div class="timeline-title">
+          <span class="timeline-icon">📊</span>
+          Phase 2: Survey Data Collection
+        </div>
+        <div class="timeline-desc">
+          500+ participant survey correlating worthiness beliefs with measurable business outcomes, cognitive performance, and neuroplasticity indicators from spiritual practices.
+        </div>
+        <div class="timeline-stats">
+          <span>500+ Responses</span>
+          <span>Quantitative Analysis</span>
+          <span>Status: In Progress</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-item" data-phase="3">
+      <div class="timeline-dot" onclick="activateTimelinePhase(3)"></div>
+      <div class="timeline-content" onclick="expandTimelineItem(this)">
+        <div class="timeline-title">
+          <span class="timeline-icon">🧠</span>
+          Phase 3: Scientific Integration
+        </div>
+        <div class="timeline-desc">
+          Integration with peer-reviewed neuroscience research on mindfulness, executive function, and spiritual practices. Pattern identification across interviews and statistical analysis.
+        </div>
+        <div class="timeline-stats">
+          <span>Academic Research</span>
+          <span>Pattern Analysis</span>
+          <span>Status: Upcoming</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="timeline-item" data-phase="4">
+      <div class="timeline-dot" onclick="activateTimelinePhase(4)"></div>
+      <div class="timeline-content" onclick="expandTimelineItem(this)">
+        <div class="timeline-title">
+          <span class="timeline-icon">📖</span>
+          Phase 4: Book Publication
+        </div>
+        <div class="timeline-desc">
+          "The Art of the Deal with God" - Evidence-based frameworks combining spiritual wisdom with neuroscience to help women build unshakeable professional confidence.
+        </div>
+        <div class="timeline-stats">
+          <span>Global Release</span>
+          <span>Practical Frameworks</span>
+          <span>Status: Planned</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="timeline-controls">
+    <button class="timeline-btn" onclick="playTimelineSequence()" id="playBtn">
+      ▶️ Play Timeline Sequence
+    </button>
+    <button class="timeline-btn" onclick="resetTimeline()" id="resetBtn">
+      🔄 Reset Timeline
+    </button>
+  </div>
+</div>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
